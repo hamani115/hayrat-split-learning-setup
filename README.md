@@ -18,8 +18,8 @@ This setup is based on the split-learning code path packaged in this repository 
 - **SplitBud framework:** `sands-lab/splitbud`  
   https://github.com/sands-lab/splitbud?tab=readme-ov-file
 
-- **Simple runnable examples:** `BorisRado/slower_simple_examples`  
-  https://github.com/BorisRado/slower_simple_examples
+- **SplitBud runnable examples:** `BorisRado/split_learning_algorithms`  
+  https://github.com/BorisRado/split_learning_algorithms/tree/masteri
 
 This repository is meant to make it easy for the team to **clone, run, and inspect** a Hayrat-tested setup directly.
 
