@@ -33,12 +33,6 @@ Log in to Hayrat, then clone this repository:
 cd /scratch-beegfs/datasets/$USER
 git clone https://github.com/hamani115/hayrat-split-learning-setup.git
 cd hayrat-split-learning-setup
----
-
-## 1. Clone this repository on Hayrat
-
-Log in to Hayrat, then clone this repository:
-
 ```
 
 ---
