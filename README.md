@@ -2,19 +2,24 @@
 
 This repository contains a **working Hayrat setup** for running a distributed test of split learning on the Benefit AI Lab cluster using:
 
-* **1 server**
-* **2 clients**
-* **3 separate `compute` nodes**
-* **1 T4 GPU per node**
+- **1 server**
+- **2 clients**
+- **3 separate `compute` nodes**
+- **1 T4 GPU per node**
 
-It includes the code/config needed to run this setup (`conf/`, `scripts/`, `src/`), along with the ready-to-use Slurm script `run_split_learning_algorithms_3node.sbatch`. Hayrat uses **Slurm**, and jobs should be submitted to compute nodes rather than run on the login node. ([GitHub][2])
+It includes the code/config needed to run this setup (`conf/`, `scripts/`, `src/`), along with the ready-to-use Slurm script `run_split_learning_algorithms_3node.sbatch`.
+
+Hayrat uses **Slurm**, and jobs should be submitted to compute nodes rather than run on the login node.
 
 ## Background and upstream references
 
 This setup is based on the split-learning code path packaged in this repository for Hayrat use. If you want to inspect the original upstream pieces:
 
-* **SplitBud framework:** `sands-lab/splitbud` — the underlying split learning framework, built on top of Flower. ([GitHub][1])
-* **Simple runnable examples:** `BorisRado/slower_simple_examples` — a separate examples repository with runnable split-learning example layouts and configs. ([GitHub][3])
+- **SplitBud framework:** `sands-lab/splitbud`  
+  https://github.com/sands-lab/splitbud?tab=readme-ov-file
+
+- **Simple runnable examples:** `BorisRado/slower_simple_examples`  
+  https://github.com/BorisRado/slower_simple_examples
 
 This repository is meant to make it easy for the team to **clone, run, and inspect** a Hayrat-tested setup directly.
 
@@ -28,6 +33,12 @@ Log in to Hayrat, then clone this repository:
 cd /scratch-beegfs/datasets/$USER
 git clone https://github.com/hamani115/hayrat-split-learning-setup.git
 cd hayrat-split-learning-setup
+---
+
+## 1. Clone this repository on Hayrat
+
+Log in to Hayrat, then clone this repository:
+
 ```
 
 ---
