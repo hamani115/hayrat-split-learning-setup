@@ -115,7 +115,7 @@ Check the queue with:
 squeue --me
 ```
 
-Hayrat’s Slurm docs describe `sbatch` submission and `squeue` monitoring for jobs running on compute nodes. ([GitHub][2])
+Hayrat’s Slurm docs describe `sbatch` submission and `squeue` monitoring for jobs running on compute nodes. ([Hayrat Slurm](https://uob-ai.github.io/slurm.html))
 
 ---
 
